@@ -1,0 +1,212 @@
+.table td,
+        .table th {
+            padding: 0.75rem;
+            vertical-align: middle;
+            border-top: 1px solid #e3e6f0;
+            color: #5a5c69 !important;
+        }
+
+        .form-check {
+            position: relative;
+            display: block;
+            padding-left: 0rem;
+        }
+
+        .option-input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+            position: relative;
+            height: 40px;
+            width: 40px;
+            transition: all 0.15s ease-out 0s;
+            background: none;
+
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            outline: none;
+            position: relative;
+            z-index: 1000;
+        }
+
+        .option-input-green {
+            border: 2px solid #33a474;
+        }
+
+
+        .option-input-red {
+            border: 2px solid #b84747;
+        }
+
+        .option-input-green:hover {
+            background: #33a474;
+        }
+
+        .option-input-red:hover {
+            background: #b84747;
+        }
+
+        .option-input-green:checked {
+            background: #33a474;
+        }
+
+        .option-input-red:checked {
+            background: #b84747;
+        }
+
+        .option-input:checked::before {
+            height: 40px;
+            width: 36px;
+            position: absolute;
+            display: inline-block;
+            font-size: 26.66667px;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .option-input-green-S:checked::before {
+            margin-top: -3px;
+            content: "S";
+        }
+
+        .option-input-green-Y:checked::before {
+            margin-top: -2px;
+            content: "Y";
+        }
+
+        .option-input-red-TS:checked::before {
+            margin-top: -2.5px;
+            content: "TS";
+        }
+
+        .option-input-red-T:checked::before {
+            margin-top: -2px;
+            content: "T";
+        }
+
+        .option-input-green-1:checked::before {
+            margin-top: -8px;
+            color: #fff;
+            content: "1";
+        }
+        .option-input-green-2:checked::before {
+            margin-top: -8px;
+            color: #fff;
+            content: "2";
+        }
+        .option-input-green-3:checked::before {
+            margin-top: -8px;
+            color: #fff;
+            content: "3";
+        }
+        .option-input-green-4:checked::before {
+            margin-top: -8px;
+            color: #fff;
+            content: "4";
+        }
+        .option-input-green-5:checked::before {
+            margin-top: -8px;
+            color: #fff;
+            content: "5";
+        }
+        .option-input-green-6:checked::before {
+            margin-top: -8px;
+            color: #fff;
+            content: "6";
+        }
+        .option-input-green-7:checked::before {
+            margin-top: -8px;
+            color: #fff;
+            content: "7";
+        }
+
+        .option-input.radio {
+            border-radius: 50%;
+        }
+
+        .option-input.radio::after {
+            border-radius: 50%;
+        }
+
+        /* Self-estimate */
+        .option-input-SE {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+            position: relative;
+            height: 30px;
+            width: 30px;
+            transition: all 0.15s ease-out 0s;
+            background: none;
+
+            cursor: pointer;
+            display: inline-block;
+            outline: none;
+            position: relative;
+            z-index: 1000;
+        }
+        .option-input-SE::before {
+            height: 40px;
+            width: 26px;
+            position: absolute;
+            display: inline-block;
+            font-size: 20.66667px;
+            text-align: center;
+            line-height: 40px;
+            margin-top: -3px;
+            color: #000;
+        }
+
+        .option-input-SE.radio {
+            border-radius: 50%;
+        }
+
+        .option-input-SE.radio::after {
+            border-radius: 50%;
+        }
+
+        .option-input-green-1::before {
+            margin-top: -8px;
+            color: #33a474;
+            content: "1";
+        }
+        .option-input-green-2::before {
+            margin-top: -8px;
+            color: #33a474;
+            content: "2";
+        }
+        .option-input-green-3::before {
+            margin-top: -8px;
+            color: #33a474;
+            content: "3";
+        }
+        .option-input-green-4::before {
+            margin-top: -8px;
+            color: #33a474;
+            content: "4";
+        }
+        .option-input-green-5::before {
+            margin-top: -8px;
+            color: #33a474;
+            content: "5";
+        }
+        .option-input-green-6::before {
+            margin-top: -8px;
+            color: #33a474;
+            content: "6";
+        }
+        .option-input-green-7::before {
+            margin-top: -8px;
+            color: #33a474;
+            content: "7";
+        }
+
+        .option-input-green:hover::before {
+            color: #fff;
+        }
+       
