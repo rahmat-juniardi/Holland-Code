@@ -20,7 +20,7 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="<?= base_url(); ?>/public2/css/vertical-layout-light/style.css">
     <!-- endinject -->
-    <link rel="shortcut icon" href="<?= base_url(); ?>/public2/images/favicon.png" />
+    <link rel="shortcut icon" href="<?= base_url(); ?>/public2/images/hiddenn sidebar icon.svg" />
 
     <link rel="stylesheet" href="<?= base_url(); ?>/public2//css/css-profile-pic.css">
 

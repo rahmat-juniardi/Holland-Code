@@ -75,7 +75,7 @@ class Email extends BaseConfig
      *
      * @var int
      */
-    public $SMTPTimeout = 60;
+    public $SMTPTimeout = 120;
 
     /**
      * Enable persistent SMTP connections

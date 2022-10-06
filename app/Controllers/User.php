@@ -10,6 +10,7 @@ use phpDocumentor\Reflection\Types\Null_;
 use CodeIgniter\Files\File;
 
 use Dompdf\Dompdf;
+use phpDocumentor\Reflection\Types\Boolean;
 
 class User extends BaseController
 {
@@ -89,12 +90,31 @@ class User extends BaseController
 
         $fileFoto = $this->request->getFile('foto');
 
+        if ($fileFoto->getName() == '') {
+            return redirect()->to(base_url() . '/user');
+        }
+
+
+
+
         $namaFoto = user()->nim . '.' . $fileFoto->getExtension();
         // pindahkan ke folder
 
         $namaFotoLama = $this->request->getVar('namaFoto');
+
         if ($namaFotoLama != 'default.png') {
-            unlink("public2/image_user/" . $namaFotoLama);
+            if (file_exists("public2/image_user/" . $namaFotoLama)) {
+                // dd("The file exists");
+                unlink("public2/image_user/" . $namaFotoLama);
+            } else {
+                // dd("The file does not exist");
+                $data_baru['user_image'] = "default.png";
+
+                $db      = \Config\Database::connect();
+                $builder = $db->table('users');
+                $builder->set($data_baru);
+                $builder->update($data_baru, 'nim = ' . user()->nim);
+            }
         }
 
         $fileFoto->move('public2/image_user', $namaFoto);
@@ -279,16 +299,19 @@ class User extends BaseController
         // echo "nilai total : " . $tempNilaiTotal . "<br>";
 
         // counting 3 highest rank code
-        $shortnilai = array_reverse($shortnilai);
+        // $shortnilai = array_reverse($shortnilai);
         arsort($shortnilai);
 
         $TigaSkorTertinggi = [];
         $keys = array_keys($shortnilai);
         for ($i = 0; $i < 3; $i++) {
             if ($shortnilai[$keys[$i]] != 0) {
-                $TigaSkorTertinggi[$i] = array_search($shortnilai[$keys[$i]], $shortnilai);
+                // $TigaSkorTertinggi[$i] = array_search($shortnilai[$keys[$i]], $shortnilai);
+                $TigaSkorTertinggi[$i] = $keys[$i];
             }
         }
+
+        dd($TigaSkorTertinggi, $keys, $shortnilai);
         $hasil = [
             'nim' => user()->nim,
             'tanggal'   => $this->tgl_indo(),

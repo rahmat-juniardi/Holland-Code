@@ -33,7 +33,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-S  radio " name="B1-R-<?= $i; ?>" value="S" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-S  radio " name="B1-R-<?= $i; ?>" value="S" requiredxx />
                                         <!-- option-input option-input-green option-input-green-S -->
                                     </label>
                                 </div>
@@ -75,7 +75,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-I-<?= $i; ?>" value="S" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-I-<?= $i; ?>" value="S" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -114,7 +114,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-A-<?= $i; ?>" value="S" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-A-<?= $i; ?>" value="S" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -154,7 +154,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-S-<?= $i; ?>" value="S" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-S-<?= $i; ?>" value="S" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -193,7 +193,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-E-<?= $i; ?>" value="S" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-E-<?= $i; ?>" value="S" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -232,7 +232,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-C-<?= $i; ?>" value="S" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-S radio " name="B1-C-<?= $i; ?>" value="S" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -283,7 +283,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y  radio " name="B2-R-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y  radio " name="B2-R-<?= $i; ?>" value="Y" requiredxx />
                                         <!-- option-input option-input-green option-input-green-Y -->
                                     </label>
                                 </div>
@@ -325,7 +325,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-I-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-I-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -364,7 +364,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-A-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-A-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -404,7 +404,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-S-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-S-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -443,7 +443,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-E-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-E-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -482,7 +482,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-C-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B2-C-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -533,7 +533,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y  radio " name="B3-R-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y  radio " name="B3-R-<?= $i; ?>" value="Y" requiredxx />
                                         <!-- option-input option-input-green option-input-green-Y -->
                                     </label>
                                 </div>
@@ -575,7 +575,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-I-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-I-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -614,7 +614,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-A-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-A-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -654,7 +654,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-S-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-S-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -693,7 +693,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-E-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-E-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -732,7 +732,7 @@
                             <td class="">
                                 <div class="form-check d-flex justify-content-start">
                                     <label class="m-0">
-                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-C-<?= $i; ?>" value="Y" required />
+                                        <input type="radio" class="option-input option-input-green option-input-green-Y radio " name="B3-C-<?= $i; ?>" value="Y" requiredxx />
                                     </label>
                                 </div>
                             </td>
@@ -773,7 +773,7 @@
                         <div class="form-check d-flex justify-content-center">
                             <?php for ($i = 1; $i <= 7; $i++) { ?>
                                 <label class="mx-1">
-                                    <input type="radio" class="option-input-SE  option-input-green option-input-green-<?= $i; ?>  radio " name="SE1-R-1" required value="<?= $i; ?>" />
+                                    <input type="radio" class="option-input-SE  option-input-green option-input-green-<?= $i; ?>  radio " name="SE1-R-1" requiredxx value="<?= $i; ?>" />
                                 </label>
                             <?php }; ?>
                         </div>
@@ -844,7 +844,7 @@
                         <div class="form-check d-flex justify-content-center">
                             <?php for ($i = 1; $i <= 7; $i++) { ?>
                                 <label class="mx-1">
-                                    <input type="radio" class="option-input-SE  option-input-green option-input-green-<?= $i; ?>  radio " name="SE2-R-1" required value="<?= $i; ?>" />
+                                    <input type="radio" class="option-input-SE  option-input-green option-input-green-<?= $i; ?>  radio " name="SE2-R-1" requiredxx value="<?= $i; ?>" />
                                 </label>
                             <?php }; ?>
                         </div>

@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?= $title; ?></title>
+
+
     <!-- plugins:css -->
     <link rel="stylesheet" href="<?= base_url(); ?>/public2/vendors/feather/feather.css">
     <link rel="stylesheet" href="<?= base_url(); ?>/public2/vendors/mdi/css/materialdesignicons.min.css">
@@ -21,7 +23,7 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="<?= base_url(); ?>/public2/css/vertical-layout-light/style.css">
     <!-- endinject -->
-    <link rel="shortcut icon" href="<?= base_url(); ?>/public2/images/favicon.png" />
+    <link rel="shortcut icon" href="<?= base_url(); ?>/public2/images/hiddenn sidebar icon.svg" />
 
     <link rel="stylesheet" href="<?= base_url(); ?>/public2//css/css-profile-pic.css">
 
