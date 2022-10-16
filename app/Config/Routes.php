@@ -36,6 +36,12 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
+
+$route['default_controller'] = 'welcome';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
+
+
 $routes->get('/', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/profile', 'Admin::profile', ['filter' => 'role:admin']);
 $routes->get('/', 'User::index');
@@ -50,6 +56,7 @@ $routes->get('/user/save/(:num)', 'User::save/$1');
 
 $routes->get('/admin', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/submit', 'Admin::submit', ['filter' => 'role:admin']);
+$routes->post('/submit/update_status_skor', 'Admin::update_status_skor', ['filter' => 'role:admin']);
 $routes->get('/admin/index', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/admin/(:num)', 'Admin::detail/$1', ['filter' => 'role:admin']);
 

@@ -10,11 +10,12 @@ class Email extends BaseConfig
      * @var string
      */
     public $fromEmail = 'rahmat.ardi61@gmail.com';
+    // public $fromEmail = 'admin@labpsiuad.com';
 
     /**
      * @var string
      */
-    public $fromName  = 'Holland Survey';
+    public $fromName  = 'Admin Holland Survey';
 
     /**
      * @var string
@@ -48,6 +49,7 @@ class Email extends BaseConfig
      * @var string
      */
     public $SMTPHost = 'smtp.gmail.com';
+    // public $SMTPHost = 'mail.labpsiuad.com';
 
     /**
      * SMTP Username
@@ -55,6 +57,7 @@ class Email extends BaseConfig
      * @var string
      */
     public $SMTPUser = 'rahmat.ardi61@gmail.com';
+    // public $SMTPUser = 'admin@labpsiuad.com';
 
     /**
      * SMTP Password
@@ -62,6 +65,8 @@ class Email extends BaseConfig
      * @var string
      */
     public $SMTPPass = 'dlwjdbsmbwsfkjox';
+    // public $SMTPPass = 'psiU4D@jaya';
+
 
     /**
      * SMTP Port

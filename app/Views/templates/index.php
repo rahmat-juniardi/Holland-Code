@@ -35,6 +35,8 @@
 
 
 
+
+
     <style>
         .upload {
             width: 125px;
@@ -117,6 +119,10 @@
                 <!-- main-panel ends -->
             </div>
         </div>
+
+
+
+
         <!-- plugins:js -->
         <script src="<?= base_url(); ?>/public2/vendors/js/vendor.bundle.base.js"></script>
         <!-- endinject -->
@@ -145,7 +151,7 @@
                     scrollX: true,
                     dom: 'Bfrtip',
                     buttons: [
-                        'copy', 'csv', 'excel', 'pdf', 'print'
+                        'csv', 'excel', 'print'
                     ],
                 });
             });
@@ -155,11 +161,16 @@
                     scrollX: true,
                     dom: 'Bfrtip',
                     buttons: [
-                        'copy', 'csv', 'excel', 'pdf', 'print'
+                        'csv', 'excel', 'print'
                     ],
                 });
             });
         </script>
+
+
+
+
+
         <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
@@ -169,25 +180,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
         <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
         <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
-
-
-        <!-- <form class="form" id="form" action="User/updateImage" enctype="multipart/form-data" method="post">
-            <div class="upload">
-                <img src="<?= base_url(); ?>/public2/image_user/<?= user()->user_image; ?>" width=125 height=125 title="<?= user()->user_image; ?>">
-                <div class="round">
-                    <input type="hidden" name="id" value="<?= user()->id; ?>">
-                    <input type="hidden" name="name" value="<?= user()->nama_lengkap; ?>">
-                    <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png">
-                    <i class="mdi mdi-camera-party-mode" style="color: #fff;"></i>
-                </div>
-            </div>
-        </form>
-        <script type="text/javascript">
-            document.getElementById("image").onchange = function() {
-                document.getElementById("form").submit();
-            };
-        </script> -->
-
 
 </body>
 

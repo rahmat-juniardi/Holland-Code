@@ -311,7 +311,7 @@ class User extends BaseController
             }
         }
 
-        dd($TigaSkorTertinggi, $keys, $shortnilai);
+
         $hasil = [
             'nim' => user()->nim,
             'tanggal'   => $this->tgl_indo(),

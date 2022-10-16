@@ -118,7 +118,7 @@ class Admin extends BaseController
 
         $db      = \Config\Database::connect();
         $builder = $db->table('submit');
-        $builder->select('users.nim as usernim, users.email,nama_lengkap, submit.tanggal, submit.skor, submit.tiga_skor_kode');
+        $builder->select('users.nim as usernim, users.email,nama_lengkap, submit.tanggal, submit.skor, submit.tiga_skor_kode, submit.status_skor, submit.id');
         $builder->join('users', 'users.nim = submit.nim');
         $query = $builder->get();
         $data['submit'] = $query->getResultArray();
@@ -126,6 +126,28 @@ class Admin extends BaseController
 
 
         return view('admin/submit', $data);
+    }
+
+    public function update_status_skor()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('submit');
+        $builder->select('id');
+        $id_submit = $builder->get()->getResultArray();
+
+        $status_skor = [];
+
+        for ($i = 0; $i < count($id_submit); $i++) {
+            $temp['id'] = $id_submit[$i]['id'];
+            ($this->request->getVar($id_submit[$i]['id']) == null) ?
+                $temp['status_skor'] = 'Tidak tampil' :
+                $temp['status_skor'] = $this->request->getVar($id_submit[$i]['id']);
+            $status_skor[$i] = $temp;
+        }
+
+        $builder->updateBatch($status_skor, 'id');
+
+        return redirect()->to(base_url() . '/submit');
     }
 
     public function detail($id = 0)

@@ -47,7 +47,9 @@
                                                     <h6><?= $s['tanggal']; ?></h6>
                                                 </td>
                                                 <td>
-                                                    <h6><?= $s['skor']; ?></h6>
+                                                    <h6>
+                                                        <?= ($s['status_skor'] == 'Tidak tampil') ? '-' : $s['skor']; ?>
+                                                    </h6>
                                                 </td>
                                                 <td>
                                                     <h6><?= $tiga_skor; ?></h6>
@@ -63,7 +65,6 @@
                                         <?php endforeach; ?>
                                     </tbody>
                                 </table>
-
                             </div>
                         </div>
 
