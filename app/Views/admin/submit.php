@@ -11,11 +11,12 @@
                         <div class="d-sm-flex justify-content-between align-items-start">
                             <div>
                                 <h2 class="card-title card-title-dash">Daftar Pengisian Survey Holland </h2>
-
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-12 py-3">
+                                <h6><small class="text-muted">*Mohon tekan tombol 'Update Status Skor' setelah mengubah checkbox Status Skor</small></h6>
+
                                 <form action="<?= base_url('submit/update_status_skor') ?>" method="post" class="form-sample user">
                                     <table id="submit" class="display nowrap" style="width:100%">
                                         <thead>

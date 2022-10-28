@@ -10,12 +10,14 @@ class Email extends BaseConfig
      * @var string
      */
     public $fromEmail = 'rahmat.ardi61@gmail.com';
+    // public $fromEmail = 'rahmat.ardi61@gmail.com';
     // public $fromEmail = 'admin@labpsiuad.com';
 
     /**
      * @var string
      */
-    public $fromName  = 'Admin Holland Survey';
+    // public $fromName  = 'Admin Holland Survey';
+    public $fromName  = 'Aktivasi Lab PSI UAD';
 
     /**
      * @var string
@@ -58,6 +60,7 @@ class Email extends BaseConfig
      */
     public $SMTPUser = 'rahmat.ardi61@gmail.com';
     // public $SMTPUser = 'admin@labpsiuad.com';
+    // public $SMTPUser = 'labpsiua@labpsiuad.com';
 
     /**
      * SMTP Password

@@ -25,6 +25,12 @@
 
             <li class="nav-item nav-category"></li>
             <li class="nav-item">
+                <a class="nav-link" href="<?= base_url(''); ?>">
+                    <i class="menu-icon mdi mdi-arrow-left-bold"></i>
+                    <span class="menu-title">Kembali</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('logout'); ?>">
                     <i class="menu-icon mdi mdi mdi-power"></i>
                     <span class="menu-title">Sign Out</span>
@@ -57,6 +63,13 @@
                 </a>
             </li>
             <li class="nav-item nav-category"></li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?= base_url(''); ?>">
+                    <i class="menu-icon mdi mdi-arrow-left-bold"></i>
+                    <span class="menu-title">Kembali</span>
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('logout'); ?>">
                     <i class="menu-icon mdi mdi mdi-power"></i>

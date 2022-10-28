@@ -1,6 +1,22 @@
 <?= $this->extend('auth/templates/index'); ?>
 
 <?= $this->section('content'); ?>
+<div id="header_main" class="container_wrap container_wrap_logo" style="background-color:#660d9e;">
+
+    <div class="container av-logo-container">
+        <div class="inner-container"><span class="logo"><a href="https://fpsikologi.uad.ac.id/">
+                    <img height="100" width="300" src="https://fpsikologi.uad.ac.id/wp-content/uploads/2019/10/logo-psikologi.png" alt="Psychology For Better Community"></a></span>
+
+            <nav class="main_menu" data-selectname="Select a page" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+                <div class="avia-menu av-main-nav-wrap">
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- end container_wrap-->
+</div>
 
 <div class="container-scroller">
     <div class="container-fluid page-body-wrapper full-page-wrapper">

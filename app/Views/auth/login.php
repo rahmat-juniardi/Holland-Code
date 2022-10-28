@@ -1,16 +1,33 @@
 <?= $this->extend('auth/templates/index'); ?>
 
 <?= $this->section('content'); ?>
+<div id="header_main" class="container_wrap container_wrap_logo" style="background-color:#660d9e;">
+
+    <div class="container av-logo-container">
+        <div class="inner-container"><span class="logo"><a href="https://fpsikologi.uad.ac.id/">
+                    <img height="100" width="300" src="https://fpsikologi.uad.ac.id/wp-content/uploads/2019/10/logo-psikologi.png" alt="Psychology For Better Community"></a></span>
+
+            <nav class="main_menu" data-selectname="Select a page" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+                <div class="avia-menu av-main-nav-wrap">
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- end container_wrap-->
+</div>
 <div class="container-scroller">
     <div class="container-fluid page-body-wrapper full-page-wrapper">
-        <div class="content-wrapper d-flex align-items-center auth px-0">
-            <div class="row w-100 mx-0">
-                <div class="col-lg-4 mx-auto">
+        <div class="content-wrapper py-5 auth px-0 ">
+            <div class="row  mx-xl-5 mx-0 m">
+                <div class="col-md-10 col-lg-4 mb-3 mx-auto">
                     <div class="auth-form-light text-left py-5 px-4 px-sm-5">
-                        <div class="brand-logo">
+                        <!-- <div class="brand-logo">
                             <img src="<?= base_url(); ?>/public2/images/logo.svg" alt="logo" />
-                        </div>
-                        <h4>Selamat datang di Inventori SDS - Holland</h4>
+                        </div> -->
+                        <!-- <h4>Selamat datang di Inventori SDS - Holland</h4> -->
+                        <h4>Selamat datang di - laboratorium asesmen PSI UAD</h4>
                         <h6 class="fw-light">Silakan Login untuk lanjut.</h6>
 
                         <?= view('Myth\Auth\Views\_message_block') ?>
@@ -42,6 +59,16 @@
 
                             </div>
                         </form>
+                    </div>
+                </div>
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+
+                        <h4>Tentang Website Laboratorium Asesmen</h4>
+                        <br>
+                        <h6 class="fw-light">Website bagi mahasiswa psikologi Universitas Ahmad Dahlan dalam melakukan asesmen atau paktikum.</h6>
+
+
                     </div>
                 </div>
             </div>

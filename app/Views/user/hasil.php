@@ -301,7 +301,7 @@
 
         <div class="row ">
             <div class="col">
-                <p class="fs-5 my-0">Total Skor : <?= $skor; ?></p>
+                <p class="fs-5 my-0">Total Skor : <?= ($status_skor == 'Tidak tampil') ? '-' : $skor; ?></p>
                 <p class="fs-5">3 Skor Tertinggi (Kode Huruf) : <?= $tiga_skor_kode; ?></p>
 
             </div>

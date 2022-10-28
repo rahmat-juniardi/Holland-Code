@@ -151,7 +151,7 @@
                     scrollX: true,
                     dom: 'Bfrtip',
                     buttons: [
-                        'csv', 'excel', 'print'
+                        'excel'
                     ],
                 });
             });
@@ -161,7 +161,7 @@
                     scrollX: true,
                     dom: 'Bfrtip',
                     buttons: [
-                        'csv', 'excel', 'print'
+                        'excel'
                     ],
                 });
             });

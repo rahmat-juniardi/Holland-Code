@@ -88,6 +88,38 @@
                                 <div class="col-12 text-center text-md-start border-top my-4">
                                     <div class="mt-3">
                                         <button class="btn btn-primary btn-lg text-white mb-0 me-0 px-3" data-bs-toggle="modal" data-bs-target="#ModalEditProfil" type="button"><i class="mdi mdi mdi-settings"></i>Edit Profil</button>
+
+                                    </div>
+                                    <div class="row <?= (in_groups('admin')) ? 'd-none' : 'd-block'; ?> d-lg-none">
+                                        <div class="col-12  text-center text-md-start my-0">
+                                            <div class="my-3">
+                                                <button class="btn btn-primary btn-lg text-white mb-0 me-0 px-3 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"><i class="menu-icon mdi mdi-border-color"></i>Mulai Survey</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Mulai Survey</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body p-3">
+                                                    <p class="text-dark m-0">
+                                                        Apakah akan memulai survey pada tanggal : <?= $tanggal; ?>
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary  text-black" data-bs-dismiss="modal">Batal</button>
+                                                    <a class="btn btn-primary text-white" href="<?= base_url('user/survey'); ?>/<?= user()->nim; ?>">Mulai</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

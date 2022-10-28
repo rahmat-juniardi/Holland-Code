@@ -122,6 +122,7 @@ class Admin extends BaseController
         $builder->join('users', 'users.nim = submit.nim');
         $query = $builder->get();
         $data['submit'] = $query->getResultArray();
+        // dd($data['submit']);
 
 
 

@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Holland Survey</title>
+    <title>Labpsiuad</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="<?= base_url(); ?>/public2/vendors/feather/feather.css">
     <link rel="stylesheet" href="<?= base_url(); ?>/public2/vendors/mdi/css/materialdesignicons.min.css">

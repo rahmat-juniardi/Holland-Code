@@ -49,6 +49,13 @@ class User extends BaseController
         return view('user/index', $data);
     }
 
+    public function daftarAplikasi()
+    {
+
+
+        return view('user/daftar-aplikasi');
+    }
+
     public function updateBiodata()
     {
         $data['title'] = 'Detail Mahasiswa';
@@ -343,6 +350,7 @@ class User extends BaseController
             'skor' => $hasil['skor'],
             'record_jawaban' => json_decode($hasil['record_jawaban'], true),
             'skor_RIASEC' => json_decode($hasil['skor_RIASEC'], true),
+            'status_skor' => $hasil['status_skor'],
             'tiga_skor_kode' => $tiga_skor,
             'hollandIndex' => $this->hollandIndex['tabel'],
             'columnName' => $this->columnName
@@ -383,6 +391,7 @@ class User extends BaseController
             'skor' => $hasil['skor'],
             'record_jawaban' => json_decode($hasil['record_jawaban'], true),
             'skor_RIASEC' => json_decode($hasil['skor_RIASEC'], true),
+            'status_skor' => $hasil['status_skor'],
             'tiga_skor_kode' => $tiga_skor,
             'hollandIndex' => $this->hollandIndex['tabel'],
             'columnName' => $this->columnName

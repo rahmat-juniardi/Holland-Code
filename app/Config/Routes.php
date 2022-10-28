@@ -42,9 +42,12 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$routes->get('/', 'Admin::index', ['filter' => 'role:admin']);
+$routes->get('/holland', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/profile', 'Admin::profile', ['filter' => 'role:admin']);
-$routes->get('/', 'User::index');
+$routes->get('/holland', 'User::index');
+
+$routes->get('/', 'User::daftarAplikasi');
+
 $routes->get('/admin', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/riwayat', 'User::riwayat');
 $routes->get('/user/saveImage', 'User::saveImage');

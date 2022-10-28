@@ -1,6 +1,22 @@
 <?= $this->extend('auth/templates/index'); ?>
 
 <?= $this->section('content'); ?>
+<div id="header_main" class="container_wrap container_wrap_logo" style="background-color:#660d9e;">
+
+    <div class="container av-logo-container">
+        <div class="inner-container"><span class="logo"><a href="https://fpsikologi.uad.ac.id/">
+                    <img height="100" width="300" src="https://fpsikologi.uad.ac.id/wp-content/uploads/2019/10/logo-psikologi.png" alt="Psychology For Better Community"></a></span>
+
+            <nav class="main_menu" data-selectname="Select a page" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+                <div class="avia-menu av-main-nav-wrap">
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- end container_wrap-->
+</div>
 
 <div class="container">
 
@@ -28,7 +44,7 @@
                                             <div class="form-group row">
                                                 <label class="col-sm-3 col-form-label pt-1">Nama Lengkap</label>
                                                 <div class="col-sm-9">
-                                                    <input type="text" class="form-control <?php if (session('errors.username')) : ?>is-invalid<?php endif ?> form-control-user" name="nama_lengkap" placeholder="" value="<?= old('nama_lengkap') ?>">
+                                                    <input type="text" class="form-control <?php if (session('errors.username')) : ?>is-invalid<?php endif ?> form-control-user" name="nama-lengkap" placeholder="" value="<?= old('nama-lengkap') ?>">
                                                 </div>
                                             </div>
                                         </div>
@@ -71,7 +87,7 @@
                                             <div class="form-group row">
                                                 <label class="col-sm-3 col-form-label pt-0">Ulangi Password</label>
                                                 <div class="col-sm-9">
-                                                    <input type="password" class="form-control <?php if (session('errors.pass_confirm')) : ?>is-invalid<?php endif ?> form-control-user" name="pass_confirm" placeholder="" autocomplete="off">
+                                                    <input type="password" class="form-control <?php if (session('errors.pass_confirm')) : ?>is-invalid<?php endif ?> form-control-user" name="password-ulang" placeholder="" autocomplete="off">
                                                 </div>
                                             </div>
                                         </div>

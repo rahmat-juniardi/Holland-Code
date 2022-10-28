@@ -6,10 +6,10 @@
             </button>
         </div>
         <div>
-            <a class="navbar-brand brand-logo" href="index.html">
+            <a class="navbar-brand brand-logo" href="<?= base_url(); ?>/user">
                 <img src="<?= base_url(); ?>/public2/images/logo.svg" alt="logo" />
             </a>
-            <a class="navbar-brand brand-logo-mini" href="index.html">
+            <a class="navbar-brand brand-logo-mini" href="<?= base_url(); ?>/user">
                 <img src="<?= base_url(); ?>/public2/images/hiddenn sidebar icon.svg" alt="logo" />
             </a>
         </div>
